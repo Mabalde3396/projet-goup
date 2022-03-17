@@ -1,0 +1,77 @@
+body{
+	margin: 0;
+	
+}
+header, nav, footer, section, article, aside {
+	position: relative;
+	border: 3px solid #cccccc;
+	box-sizing: border-box;
+	/*Ajoutez la propriété nécessaire ici*/
+}
+span {
+	padding : 1px;
+	background-color: #cccccc;
+}
+header {
+		border: 3px solid #2196F3;
+	height: 80px;
+	position: fixed;
+	left: 0;
+	right: 0;
+	z-index: 1;
+	background-color: #cf45c5;
+	text-align: center;
+}
+header span {
+	background-color: #2196F3;
+}
+nav {
+	border: 3px solid #8BC34A;
+	height: 500px;
+	background-color: #cf34ff;
+	display: inline-block;
+	width: 20%;
+	vertical-align: top;
+}
+nav span {
+	background-color: #8BC34A;
+}
+section {
+	border: 3px solid #E91E63;
+	padding: 30px;
+	background-color: #ffcc56;
+	display: inline-block;
+	width: 80%;
+	vertical-align: top;
+}
+section span {
+	background-color: #E91E63;
+}
+footer {
+	border: 3px solid #673AB7;
+	height: 50px;
+	background-color: #ffffff;
+}
+footer span {
+	background-color: #673AB7;
+	color: #ffffff;
+}
+article {
+	border: 3px solid #009688;
+	height: 500px;
+}
+aside {
+	border: 3px solid #FFC107;
+	height: 500px;
+	background-color: #CFF239;
+}
+.corner1 {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.corner2 {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}
